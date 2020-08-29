@@ -1,0 +1,35 @@
+// COLOR VARIABLES
+$color-primary: rgb(255, 255, 255);
+
+
+// FONT VARIABLES
+$font-primary: 'Abril Fatface', cursive;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px /16 = em
+$bp-large: 62.5em; // 1000px
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 62.5%; // 10px/16px = 62.5% --> 1 rem = 10px
+  //@media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  //}
+}
+
+body {
+  font-weight: 400;
+  font-family: $font-primary;
+  background-color: $color-primary;
+  line-height: 1.6;
+}

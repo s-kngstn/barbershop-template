@@ -1,0 +1,79 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+  grid-template-rows: repeat(1fr, 4);
+  line-height: 1;
+  height: 100vh;
+  background-image: radial-gradient( rgba(58, 57, 88, 0.678), rgba(14, 13, 26, 0.979)), url('/img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-shadow: 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef,
+  0px 0px 35px #fffcef;
+  padding: 7rem;
+
+  &__main {
+    grid-column: span 4;
+    grid-row: 1 / 1;
+    justify-self: center;
+    align-self: end;
+    font-size: 13.5rem;
+    letter-spacing: 4px;
+
+    span {
+      font-family: 'Lobster', cursive;
+      font-size: 6rem;
+    }
+    
+  }
+
+  &__info {
+    grid-column: 1 / span 2;
+    justify-self: start;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+
+    &--1 {
+      font-size: 6.5rem;
+      grid-row: 2 / 2;
+      align-self: center;
+    }
+
+    &--2 {
+      font-size: 5rem;
+      grid-row: 3 / 3;
+      align-self: start;
+    }
+
+  }
+
+  &__address {
+    font-size: 2.5rem;
+    grid-row: 4;
+    grid-column: 4;
+    justify-self: end;
+    align-self: end;
+  }
+
+
+  .btn {
+    grid-row: 4;
+    justify-self: start;
+    align-self: end;
+  
+    &--book-now {
+      grid-column: 1 / 2;
+      
+      
+    }
+    
+    &--more-info {
+      grid-column: 2 / 3;
+    }
+  }
+
+}
+
