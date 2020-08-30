@@ -6,8 +6,6 @@
     "picture btn";
   grid-gap: 10rem;
   background-color: #fcfaf5;
-  align-content: center;
-  justify-content: center;
   padding: 20rem 5rem;
 
   &__photo {
@@ -44,8 +42,6 @@
     color: #555;
 
     grid-area: para;
-    grid-column: 2 / 2;
-    grid-row: 2 / 2;
     align-self: start;
     justify-self: start;
 
@@ -53,8 +49,6 @@
 
   &__btn {
     grid-area: btn;
-    grid-column: 2 / 2;
-    grid-row: 3 / 3;
     align-self: start;
     justify-self: start;
 

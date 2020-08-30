@@ -1,0 +1,54 @@
+@media(max-width: 1200px) {
+  html {
+    font-size: 40%;
+  }
+
+  //NAVIGATION
+  .navi-list {
+    a {
+      font-size: 2.5rem;
+    }
+  }
+
+  //HAIRDRESSERS
+  .hairdressers {
+    
+  }
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item {
+    width: 80%; // IMG WIDTH/SIZE
+    margin-bottom: 5rem;
+  }
+
+  //FIND US
+  .findus {
+    display: grid;
+    grid-template-areas: 
+      "heading"
+      "map"
+      "para"
+      "list";
+    justify-content: center;
+    align-content: center;
+  }
+
+  // SERVICES
+  .services {
+    display: grid;
+    grid-template-areas: 
+      "header"
+      "picture"
+      "para"
+      "btn";
+    justify-content: center;
+    align-content: center;
+
+    &__photo {
+      width: 50%;
+    }
+  }
+   
+}
