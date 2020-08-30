@@ -51,7 +51,7 @@
 
   &__content {
     width: 75%;
-    background-color: #e6e6e6f5;
+    background-color: #fcfaf5;
     padding: 1rem;
     box-shadow: 0 2rem 4rem rgba(0,0,0,0.8);
     color: #0e0d1a;
@@ -75,6 +75,7 @@
   &__heading {
     font-size: 8rem;
     letter-spacing: 1.5px;
+    line-height: 1;
   
     &::after {
       display: block;
@@ -92,6 +93,7 @@
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     padding-top: 3rem;
+    color: #555;
   }
 
   &__prices-box {

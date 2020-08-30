@@ -25,8 +25,7 @@
     align-self: center;
 
     grid-area: header;
-    grid-column: 2 / 2;
-    grid-row: 1 / 1;
+    
 
     &::after {
       display: block;
@@ -42,7 +41,7 @@
   &__para {
     font-size: 2.5rem;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(44, 44, 44);
+    color: #555;
 
     grid-area: para;
     grid-column: 2 / 2;

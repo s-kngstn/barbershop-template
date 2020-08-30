@@ -1,0 +1,81 @@
+.findus {
+  display: grid;
+  grid-template-areas: 
+    "map heading"
+    "map para"
+    "map list";
+  grid-gap: 5rem;
+  padding: 15rem 0;
+  background-color: #fcfaf5;
+
+    &__heading {
+      font-size: 6.5rem;
+      grid-area: heading;
+      align-self: center;
+      
+  
+      &::after {
+        display: block;
+        height: 3px;
+        background-color: rgb(70, 67, 105);
+        content: " ";
+        width: 10rem;
+        margin-top: 2rem;
+      }
+  
+    }
+
+    &__para {
+      font-size: 2.5rem;
+      font-family: 'Open Sans', sans-serif;
+      color: #555;
+  
+      grid-area: para;
+      align-self: start;
+      justify-self: start;
+
+      i {
+        color: rgb(70, 67, 105);
+      }
+  
+    }
+
+    &__list {
+      grid-area: list;
+      font-size: 2.5rem;
+      font-family: 'Open Sans', sans-serif;
+      align-self: start;
+      justify-self: start;
+
+      li {
+        list-style: none;
+        padding: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        margin-left: 5rem;
+        color: #0e0d1a;
+      }
+
+      i {
+        color: #464369;
+      }
+
+    }
+
+    &__map {
+    grid-area: map;
+    align-self: center;
+    justify-self: center;
+    border: #464369 3px solid;
+    
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+}

@@ -1,4 +1,4 @@
-ul {
+.navi-list {
   z-index: 5;
   position: fixed;
   display: flex;
@@ -26,8 +26,17 @@ ul {
     &:hover {
       color: #fffcef;
     }
+
+    
   }
   
+}
+
+#app-btn {
+  color: #fffcef;
+  &:hover {
+    color: #464369;
+  }
 }
 
 .special {
