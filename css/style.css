@@ -467,7 +467,7 @@ body {
   display: grid;
   grid-template-areas: "map heading" "map para" "map list";
   grid-gap: 5rem;
-  padding: 15rem 0;
+  padding: 15rem 5rem;
   background-color: #fcfaf5; }
   .findus__heading {
     font-size: 6.5rem;
@@ -627,16 +627,15 @@ body {
     .header__info--2 {
       font-size: 4rem; }
   .header .btn {
-    align-self: end;
-    font-size: 2.5rem; }
+    align-self: end; }
     .header .btn--book-now {
       justify-self: start;
       align-self: center;
       grid-row: 4;
       grid-column: 1 / 2;
       line-height: 1;
-      font-size: 4rem;
-      padding: 3rem 5rem; }
+      font-size: 3rem;
+      padding: 2rem 3.5rem; }
     .header .btn--more-info {
       visibility: hidden;
       opacity: 0; }
