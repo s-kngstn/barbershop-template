@@ -618,33 +618,35 @@ body {
 @media (max-width: 650px) {
   html {
     font-size: 35%; }
-  .header__main {
-    font-size: 8rem; }
-  .header__info {
-    grid-column: 1 / span 3; }
-    .header__info--1 {
-      font-size: 4.5rem; }
-    .header__info--2 {
-      font-size: 4rem; }
-  .header .btn {
-    align-self: end; }
-    .header .btn--book-now {
-      justify-self: start;
-      align-self: center;
-      grid-row: 4;
-      grid-column: 1 / 2;
-      line-height: 1;
-      font-size: 3rem;
-      padding: 2rem 3rem; }
-    .header .btn--more-info {
-      visibility: hidden;
-      opacity: 0; }
-  .header__address {
-    font-size: 3.5rem;
-    grid-column: 1;
-    grid-row: 3;
-    justify-self: end;
-    align-self: end; }
+  .header {
+    padding: 4rem; }
+    .header__main {
+      font-size: 6.5rem; }
+    .header__info {
+      grid-column: 1 / span 3; }
+      .header__info--1 {
+        font-size: 4rem; }
+      .header__info--2 {
+        font-size: 3.5rem; }
+    .header .btn {
+      align-self: end; }
+      .header .btn--book-now {
+        justify-self: start;
+        align-self: center;
+        grid-row: 4;
+        grid-column: 1 / 2;
+        line-height: 1;
+        font-size: 3rem;
+        padding: 2rem 3rem; }
+      .header .btn--more-info {
+        visibility: hidden;
+        opacity: 0; }
+    .header__address {
+      font-size: 3.5rem;
+      grid-column: 1;
+      grid-row: 3;
+      justify-self: end;
+      align-self: end; }
   .services__photo {
     width: 90%; }
   .findus {

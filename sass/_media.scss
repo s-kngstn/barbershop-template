@@ -166,20 +166,21 @@
   
   // HEADER
   .header {
-    
+    padding: 4rem;
+
     &__main {
-      font-size: 8rem;
+      font-size: 6.5rem;
     }
 
     &__info {
       grid-column: 1 / span 3;
       &--1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
         
       }
   
       &--2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         
       }
   
