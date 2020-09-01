@@ -162,21 +162,9 @@
   html {
     font-size: 35%;
   }
-  // NAVIGATION
-  #background_wrap {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    background-image: url('/img/header.jpg');
-    background-attachment: fixed;
-  }
   // HEADER 
   .header {
-    padding: 3rem;
+    padding: 2rem 3rem;
 
     &__main {
       font-size: 6.5rem;

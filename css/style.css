@@ -26,10 +26,13 @@ body {
   background-image: radial-gradient(rgba(58, 57, 88, 0.678), rgba(14, 13, 26, 0.979)), url("/img/header.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #fff;
   text-shadow: 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 35px #fffcef;
   padding: 5rem; }
+  @media (min-width: 700px) {
+    .header {
+      background-attachment: fixed; } }
   .header__main {
     grid-column: span 4;
     grid-row: 1 / 1;
@@ -71,7 +74,7 @@ body {
 .navi {
   z-index: 10;
   width: 100%;
-  height: 10rem;
+  padding: 1rem;
   background-color: #0e0d1a;
   position: fixed;
   display: flex;
@@ -88,7 +91,8 @@ body {
     justify-content: space-around;
     align-items: center; }
   .navi__item {
-    list-style: none; }
+    list-style: none;
+    margin: 2rem; }
   .navi__link {
     text-decoration: none;
     font-size: 3rem;
@@ -467,7 +471,7 @@ body {
   display: grid;
   grid-template-areas: "map heading" "map para" "map list";
   grid-gap: 5rem;
-  padding: 15rem 5rem;
+  padding: 5rem 5rem;
   background-color: #fcfaf5; }
   .findus__heading {
     font-size: 6.5rem;
@@ -618,18 +622,8 @@ body {
 @media (max-width: 650px) {
   html {
     font-size: 35%; }
-  #background_wrap {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: 100%;
-    background-image: url("/img/header.jpg");
-    background-attachment: fixed; }
   .header {
-    padding: 3rem; }
+    padding: 2rem 3rem; }
     .header__main {
       font-size: 6.5rem;
       letter-spacing: 2px; }
