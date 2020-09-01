@@ -1,19 +1,12 @@
 @media(max-width: 1200px) {
+    
   html {
     font-size: 40%;
   }
 
   //NAVIGATION
-  .navi-list {
-    a {
-      font-size: 2.5rem;
-    }
-  }
 
   //HAIRDRESSERS
-  .hairdressers {
-    
-  }
   .items {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -34,6 +27,11 @@
     justify-content: center;
     align-content: center;
   }
+  // MAP 
+  iframe {
+    width: 450px ;
+    height: 350px;
+  }
 
   // SERVICES
   .services {
@@ -51,4 +49,187 @@
     }
   }
    
+}
+
+
+@media(max-width: 900px) {
+
+  html {
+    font-size: 35%;
+  }
+
+  // HEADER
+  .header {
+    &__main {
+      font-size: 14rem;
+    }
+
+    &__info {
+      grid-column: 1 / span 3;
+
+      &--1 {
+        font-size: 5.5rem;
+        
+      }
+  
+      &--2 {
+        font-size: 4.5rem;
+        
+      }
+    }
+  }
+
+  // HAIRDRESSERS
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .item {
+    width: 90%; // IMG WIDTH/SIZE
+    margin-bottom: none;
+  }
+}
+
+
+@media(max-width: 750px) {
+  
+  // HEADER
+  .header {
+    &__main {
+      font-size: 12rem;
+    }
+
+    &__info {
+      grid-column: 1 / span 3;
+
+      &--1 {
+        font-size: 5.5rem;
+        
+      }
+  
+      &--2 {
+        font-size: 4.5rem;
+        
+      }
+  
+    }
+    
+  }
+  // SERVICES
+  .services {
+
+    &__photo {
+      width: 70%;
+    }
+  }
+}
+
+@media(max-width: 700px) {
+  
+  // HEADER
+  .header {
+
+    &__main {
+      font-size: 9.5rem;
+    }
+
+    &__info {
+      grid-column: 1 / span 3;
+      &--1 {
+        font-size: 4.5rem;
+        
+      }
+  
+      &--2 {
+        font-size: 3.5rem;
+        
+      }
+  
+    }
+  }
+  // SERVICES
+  .services {
+
+    &__photo {
+      width: 70%;
+    }
+  }
+}
+
+
+@media(max-width: 650px) {
+  html {
+    font-size: 35%;
+  }
+  // NAVIGATION
+  
+  // HEADER
+  .header {
+    
+    &__main {
+      font-size: 8rem;
+    }
+
+    &__info {
+      grid-column: 1 / span 3;
+      &--1 {
+        font-size: 4.5rem;
+        
+      }
+  
+      &--2 {
+        font-size: 4rem;
+        
+      }
+  
+    }
+    .btn {
+      align-self: end;
+      font-size: 2.5rem;
+    
+      &--book-now {
+        justify-self: start;
+        align-self: center;
+        grid-row: 4;
+        grid-column: 1 / 2;
+        line-height: 1;
+        font-size: 4rem; 
+        padding: 3rem 5rem; 
+      }
+      
+      &--more-info {
+        visibility: hidden;
+        opacity: 0;
+      } 
+    }
+    &__address {
+      font-size: 3.5rem;
+      grid-column: 1;
+      grid-row: 3;
+      justify-self: end;
+      align-self: end;
+    }
+  }
+
+  // SERVICES
+
+  .services {
+
+    &__photo {
+      width: 90%;
+    }
+  }
+
+  // MAP
+
+  &__map {
+    align-self: start;
+    justify-self: start;
+  }
+  iframe {
+    width: 400px ;
+    height: 300px;
+  }
+
+
 }

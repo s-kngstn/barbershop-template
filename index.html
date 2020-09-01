@@ -10,19 +10,67 @@
   <title>KINGS of CLERKENWELL | Bespoke Hair Services</title>
 </head>
 <body>
-  <!-- NAVIGATION -->
-  <nav class="main-navi">
-    <ul class="navi-list">
-      <li><a href="#header">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#hairdressers">Hairdressers</a></li>
-      <li><a href="#popup">Pricing</a></li>
-      <li><a href="#findus">Find Us</a></li>
-      <li><a id="app-btn" class="special" href="#hairdressers">Appointments</a></li>
-    </ul>
-  </nav>
+  <!-- HAMBURGER MOBILE NAVI -->
+  <div class="nav-container">
+    <nav class="navbar">
+      <div class="hamburger-menu">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#header" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#services" class="nav-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#hairdressers" class="nav-link">Hairdressers</a>
+        </li>
+        <li class="nav-item">
+          <a href="#popup" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#findus" class="nav-link">Find Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#hairdressers" class="nav-link">Appointments</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- ===================================== -->
+  <!-- MAIN NAVI -->
+  <!-- ===================================== -->
+  <div class="navi">
+    <nav class="navi__bar">
+      <ul class="navi__list">
+        <li class="navi__item">
+          <a href="#header" class="navi__link">Home</a>
+        </li>
+        <li class="navi__item">
+          <a href="#services" class="navi__link">Services</a>
+        </li>
+        <li class="navi__item">
+          <a href="#hairdressers" class="navi__link">Hairdressers</a>
+        </li>
+        <li class="navi__item">
+          <a href="#popup" class="navi__link">Pricing</a>
+        </li>
+        <li class="navi__item">
+          <a href="#findus" class="navi__link">Find Us</a>
+        </li>
+        <li class="navi__item">
+          <a href="#hairdressers" class="btn-basic">Appointments</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <!-- HEADER -->
   <header id="header" class="header">
+      <!-- HEADER CONT.-->
     <h1 class="header__main">KINGS <span>of</span> CLERKENWELL</h1>
     <h3 class="header__info header__info--1">Bespoke Services</h3>
     <h3 class="header__info header__info--2">Aesthetic Treatments</h3>
@@ -42,10 +90,10 @@
 
     <!-- HAIRDRESSERS -->
     <section id="hairdressers" class="hairdressers">
-      <div class="container">
+      <div class="hairdressers__container">
         <h2 class="hairdressers__heading">Hairdressers & Appointments</h2>
         <p class="hairdressers__para">Our dedicated hairdressers are all highly experienced in their craft. Each specializing in different areas of hairdressing. <br>
-        If you would like us to help you decide which stylist will best serve you based on your specific preferences and requirements, you can contact us at: <a href="#">KINGSOFCLERKENWELLHAIR@GMAIL.COM</a> </p>
+        If you would like us to help you decide which stylist will best serve you based on your specific preferences and requirements, you can contact us at: <a class="hairdressers__link" href="#">KINGSOFCLERKENWELLHAIR@GMAIL.COM</a> </p>
       </div>
       <div class="items">
         <!-- CARDS -->
@@ -58,7 +106,7 @@
               <p class="item-text-category">Ladies & Gents<br>  Cut & Style</p>
               <h2 class="item-text-name">Rick</h2>
               <p class="item-text-number">07704 466884</p>
-              <a href="##hairdressers" class="special">Book Now</a>
+              <a href="##hairdressers" class="btn-basic">Book Now</a>
             </div>
           </div>
         </div>
@@ -71,7 +119,7 @@
               <p class="item-text-category">Ladies & Gents<br>  Cut & Style</p>
               <h2 class="item-text-name">Massimo</h2>
               <p class="item-text-number">07951 477869</p>
-              <a href="##hairdressers" class="special">Book Now</a>
+              <a href="##hairdressers" class="btn-basic">Book Now</a>
             </div>
           </div>
         </div>
@@ -84,7 +132,7 @@
               <p class="item-text-category">Gents<br>  Cut</p>
               <h2 class="item-text-name">Alex</h2>
               <p class="item-text-number">07894 865069</p>
-              <a href="##hairdressers" class="special">Book Now</a>
+              <a href="##hairdressers" class="btn-basic">Book Now</a>
             </div>
           </div>
         </div>
@@ -97,7 +145,7 @@
               <p class="item-text-category">Ladies & Gents<br> Cut & Style <br>  Colour & Texture Change</p>
               <h2 class="item-text-name">Jason & Rachel</h2>
               <p class="item-text-number">07710 507380</p>
-              <a href="#hairdressers" class="special">Book Now</a>
+              <a href="#hairdressers" class="btn-basic">Book Now</a>
             </div>
           </div>
         </div>
@@ -109,28 +157,28 @@
       <h2 class="findus__heading">Find us</h2>
       <p class="findus__para">We are located in the <i class="fas fa-heart"></i> of Clerkenwell. <br> Just a short walk from Barbican & Farringdon Tube stations.</p>
       <ul class="findus__list">
-        <li><i class="fas fa-home"></i><a href="#">41 Clerkenwell Rd, London EC1M 5RS</a></li>
-        <li><i class="fas fa-phone"></i><a href="#">02072534758</a></li>
-        <li><i class="fas fa-envelope"></i><a href="#">kingsofclerkenwell@gmail.com</a></li>
+        <li class="findus__item"><i class="fas fa-home"></i><a href="#" class="findus__link">41 Clerkenwell Rd, London EC1M 5RS</a></li>
+        <li class="findus__item"><i class="fas fa-phone"></i><a href="#" class="findus__link">02072534758</a></li>
+        <li class="findus__item"><i class="fas fa-envelope"></i><a href="#" class="findus__link">kingsofclerkenwell@gmail.com</a></li>
       </ul>
       <div class="findus__map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=41%20clerkenwell%20rd%20ec1&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">how to add a google map to html</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div>
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=41%20clerkenwell%20rd%20ec1&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
       </div>
     </section>
   </main>
   <!-- FOOTER -->
   <footer class="footer">
     
-    <ul class="footer_list">
-      <li><a href="#services">About us</a></li>
-      <li><a href="#hairdressers">Bookings</a></li>
-      <li><a href="#popup">Pricing</a></li>
-      <li><a href="#findus">Location</a></li>
-      <li><a href="#">Social Media</a></li>
+    <ul class="footer__list">
+      <li class="footer__item"><a class="footer__link" href="#services">About us</a></li>
+      <li class="footer__item"><a class="footer__link" href="#hairdressers">Bookings</a></li>
+      <li class="footer__item"><a class="footer__link" href="#popup">Pricing</a></li>
+      <li class="footer__item"><a class="footer__link" href="#findus">Location</a></li>
+      <li class="footer__item"><a class="footer__link" href="#">Social Media</a></li>
     </ul>
     <div class="footer__parawrap">
     <p class="footer__para">&copy; 2020 by Kings of Clerkenwell, London</p>
-    <p class="footer__para">Made with <i class="fas fa-heart"></i> by <a href="#">Sam Kingston</a></p>
+    <p class="footer__para">Made with <i class="fas fa-heart"></i> by <a class="footer__link"href="#">Sam Kingston</a></p>
     </div>
   </footer>
 
@@ -187,12 +235,13 @@
           <p class="popup__prices-price">£129</p>
           <br><br><br>
           <br><br><br>
-          <a class="special" href="#hairdressers">Book Now</a>
+          <a class="btn-basic" href="#hairdressers">Book Now</a>
         </div>
       </div>
 
     </div>
   </div>
   <script src="https://kit.fontawesome.com/3feb3090e8.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>

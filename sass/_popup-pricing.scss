@@ -1,5 +1,5 @@
 .popup {
-  z-index: 50;
+  z-index: 1000;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -25,6 +25,11 @@
 
 
   &__close {
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3rem 4rem;
+
     &:link,
     &:visited {
       color: #0e0d1a;
@@ -102,10 +107,6 @@
     margin: 5rem;
   }
 
-  &__prices-card {
-    
-  }
-
   .popup__prices-title {
     font-size: 4rem;
     text-transform: uppercase;
@@ -130,11 +131,5 @@
     font-size: 2rem;
   }
 
-  a {
-    font-size: 3rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 3rem 4rem;
-  }
 }
 

@@ -25,21 +25,21 @@
     font-family: 'Open Sans', sans-serif;
     padding: 5rem 0rem 7rem 0;
     color: #555;
+  }
 
-    a {
-      text-decoration: none;
-      text-transform: lowercase;
-      color: rgb(44, 44, 44);
-      border-bottom: 2px solid transparent;
-      transition: all .2s;
-      -webkit-transition: all .2s;
-      -moz-transition: all .2s;
-      -ms-transition: all .2s;
-      -o-transition: all .2s;
-      &:hover {
-        color: #464369;
-        border-bottom: 2px solid #464369;
-      }
+  &__link {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(44, 44, 44);
+    border-bottom: 2px solid transparent;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    &:hover {
+      color: #464369;
+      border-bottom: 2px solid #464369;
     }
   }
   
@@ -196,10 +196,4 @@
     letter-spacing: 1px;
   }
   
-  a {
-    font-size: 2rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 1.5rem 3.5rem;
-  }
 }

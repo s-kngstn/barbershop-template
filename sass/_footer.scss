@@ -8,17 +8,17 @@
   font-size: 2rem;
   padding: 5rem;
 
-  ul {
+  &__list {
     display: flex;
     justify-content: space-around;
     
-    
+  } 
 
-    li {
+  &__item {
       list-style: none;
-    }
+  }
 
-    a {
+  &__link {
       text-decoration: none;
       color: #fffcef;
       transition: all .2s ease;
@@ -30,8 +30,8 @@
       &:hover {
         color: #0e0d1a;
       }
-    }
   }
+  
 
 
   &__parawrap {
@@ -40,21 +40,5 @@
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-  }
-
-  &__para {
-    a {
-      text-decoration: none;
-      color: #fffcef;
-      transition: all .2s ease;
-      -webkit-transition: all .2s ease;
-      -moz-transition: all .2s ease;
-      -ms-transition: all .2s ease;
-      -o-transition: all .2s ease;
-
-      &:hover {
-        color: #0e0d1a;
-      }
-    }
   }
 }
