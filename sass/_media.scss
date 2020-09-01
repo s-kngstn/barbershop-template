@@ -51,6 +51,13 @@
    
 }
 
+@media(min-width: 900px) {
+  .header {
+    background-image: radial-gradient( rgba(58, 57, 88, 0.678), rgba(14, 13, 26, 0.979)), url('/img/header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    }
+}
 
 @media(max-width: 900px) {
 
@@ -226,7 +233,7 @@
   // HAIRDRESSERS
 
   .hairdressers {
-    padding: 5rem 5rem 5rem 5rem;
+    padding: 5rem 5rem 0rem 5rem;
   }
 
   // MAP
