@@ -265,11 +265,26 @@
     width: 350px ;
     height: 250px;
   }
+  // POPUP MENU
+  .popup {
+    &__heading {
+      font-size: 5rem;
+    }
+
+    .popup__prices-title {
+      font-size: 2.5rem;
+    }
+  }
+
+  .btn-basic__popup {
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem;
+  }
 }
 
 @media(max-width: 350px) {
   html {
-    font-size: 25%;
+    font-size: 28%;
   }
   // MAP
   .findus {
@@ -287,18 +302,5 @@
   }
 
   // POPUP MENU
-  .popup {
-    &__heading {
-      font-size: 5rem;
-    }
-
-    .popup__prices-title {
-      font-size: 2.5rem;
-    }
-  }
-
-  .btn-basic__popup {
-    font-size: 2rem;
-    padding: 2rem 3rem;
-  }
+ 
 }

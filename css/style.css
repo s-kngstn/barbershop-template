@@ -465,6 +465,8 @@ body {
     color: #464369; }
   .popup .popup__prices-price {
     font-size: 2rem; }
+  .popup .popup__prices-card {
+    margin: 2rem; }
 
 .btn-basic__popup {
   font-size: 3rem; }
@@ -681,11 +683,18 @@ body {
       justify-self: start; }
   iframe {
     width: 350px;
-    height: 250px; } }
+    height: 250px; }
+  .popup__heading {
+    font-size: 5rem; }
+  .popup .popup__prices-title {
+    font-size: 2.5rem; }
+  .btn-basic__popup {
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem; } }
 
 @media (max-width: 350px) {
   html {
-    font-size: 25%; }
+    font-size: 28%; }
   .findus {
     padding: 5rem 10rem 5rem 10rem; }
     .findus__map {
@@ -693,14 +702,7 @@ body {
       justify-self: start; }
   iframe {
     width: 250px;
-    height: 150px; }
-  .popup__heading {
-    font-size: 5rem; }
-  .popup .popup__prices-title {
-    font-size: 2.5rem; }
-  .btn-basic__popup {
-    font-size: 2rem;
-    padding: 2rem 3rem; } }
+    height: 150px; } }
 
 .nav-container {
   width: 100%;
