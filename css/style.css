@@ -23,7 +23,7 @@ body {
   grid-template-rows: repeat(1fr, 4);
   line-height: 1;
   height: 100vh;
-  background-image: radial-gradient(rgba(70, 67, 105, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header-mobile.jpg");
+  background-image: radial-gradient(rgba(89, 96, 136, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header-mobile.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -102,12 +102,12 @@ body {
     -ms-transition: color .3s;
     -o-transition: color .3s; }
     .navi__link:hover {
-      color: #464369; }
+      color: #596088; }
 
 .btn {
   text-decoration: none;
   border: 3px solid transparent;
-  background: linear-gradient(to right, #464369, #464369);
+  background: linear-gradient(to right, #596088, #596088);
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
   color: #fcfaf5;
@@ -124,7 +124,7 @@ body {
   -o-border-radius: 2px; }
   .btn--more-info {
     background: linear-gradient(to right, #232236, #191929);
-    border: 3px solid #464369; }
+    border: 3px solid #596088; }
 
 .btn::before {
   content: '';
@@ -150,7 +150,7 @@ body {
 .btn-basic {
   text-decoration: none;
   border: 3px solid transparent;
-  background-color: #464369;
+  background-color: #596088;
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
   color: #fcfaf5;
@@ -169,9 +169,9 @@ body {
   -ms-transition: all .4s ease;
   -o-transition: all .4s ease; }
   .btn-basic:hover {
-    color: #464369;
+    color: #596088;
     background-color: #fcfaf5;
-    border: 3px #464369 solid; }
+    border: 3px #596088 solid; }
 
 .services {
   display: grid;
@@ -193,7 +193,7 @@ body {
     .services__heading::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: #596088;
       content: " ";
       width: 10rem;
       margin-top: 2rem; }
@@ -220,7 +220,7 @@ body {
     .hairdressers__heading::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: #596088;
       content: " ";
       width: 10rem;
       margin-top: 2rem; }
@@ -240,8 +240,8 @@ body {
     -ms-transition: all .2s;
     -o-transition: all .2s; }
     .hairdressers__link:hover {
-      color: #464369;
-      border-bottom: 2px solid #464369; }
+      color: #596088;
+      border-bottom: 2px solid #596088; }
 
 .items {
   display: grid;
@@ -406,7 +406,7 @@ body {
       -ms-transition: .3s all;
       -o-transition: .3s all; }
     .popup__close:hover {
-      color: #464369; }
+      color: #596088; }
   .popup__content {
     width: 75%;
     background-color: #fcfaf5;
@@ -433,7 +433,7 @@ body {
     .popup__heading::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: #596088;
       content: " ";
       width: 100%;
       margin-top: 1rem; }
@@ -455,14 +455,14 @@ body {
     .popup .popup__prices-title::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: #596088;
       content: " ";
       width: 10rem;
       margin-top: 1rem; }
   .popup .popup__prices-name {
     padding-top: 1.5rem;
     font-size: 2.5rem;
-    color: #464369; }
+    color: #596088; }
   .popup .popup__prices-price {
     font-size: 2rem; }
   .popup .popup__prices-card {
@@ -484,7 +484,7 @@ body {
     .findus__heading::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: #596088;
       content: " ";
       width: 10rem;
       margin-top: 2rem; }
@@ -496,7 +496,7 @@ body {
     align-self: start;
     justify-self: start; }
     .findus__para i {
-      color: #464369; }
+      color: #596088; }
   .findus__list {
     grid-area: list;
     font-size: 2.5rem;
@@ -504,7 +504,7 @@ body {
     align-self: start;
     justify-self: start; }
     .findus__list i {
-      color: #464369; }
+      color: #596088; }
   .findus__item {
     list-style: none;
     padding: 1rem; }
@@ -516,7 +516,7 @@ body {
     grid-area: map;
     align-self: center;
     justify-self: center;
-    border: #464369 3px solid;
+    border: #596088 3px solid;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -531,7 +531,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #464369;
+  background-color: #0e0d1a;
   color: #fcfaf5;
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
@@ -550,7 +550,7 @@ body {
     -ms-transition: all .2s ease;
     -o-transition: all .2s ease; }
     .footer__link:hover {
-      color: #0e0d1a; }
+      color: #596088; }
   .footer__parawrap {
     display: flex;
     flex-direction: column;
@@ -584,7 +584,7 @@ body {
 
 @media (min-width: 900px) {
   .header {
-    background-image: radial-gradient(rgba(70, 67, 105, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header.jpg");
+    background-image: radial-gradient(rgba(89, 96, 136, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header.jpg");
     background-size: cover;
     background-attachment: fixed; } }
 
@@ -748,7 +748,7 @@ body {
 .line {
   width: 100%;
   height: 3px;
-  background-color: #464369;
+  background-color: #596088;
   transition: all .5s;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
@@ -791,4 +791,4 @@ body {
   -ms-transition: color .3s;
   -o-transition: color .3s; }
   .nav-link:hover {
-    color: #464369; }
+    color: #596088; }
