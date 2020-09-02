@@ -18,7 +18,7 @@
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   &--more-info {
-    background: linear-gradient(to right, rgb(35, 34, 54), rgb(25, 25, 41));
+    background: linear-gradient(to right, #232236, #191929);
     border: 3px solid $color-primary;
   }
 
@@ -74,7 +74,7 @@
   -o-transition: all .4s ease;
   
   &:hover {
-    color: $color-primary;
+    color: $color-primary-dark;
     background-color: $color-off-white;
     border: 3px $color-primary solid;
   }
