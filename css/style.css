@@ -628,7 +628,7 @@ body {
   .services__photo {
     width: 70%; } }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .header__main {
     font-size: 9.5rem; }
   .header__info {
