@@ -117,16 +117,16 @@
     }  
 
     &__address {
-      grid-row: 4;
-      align-self: center;
-      margin: 0;
-    }
+      font-size: 3.5rem;
+      grid-column: 1;
+      grid-row: 5;
+      justify-self: start;
+      align-self: start;
+  }
   }
 
   .btn {
-    &--book-now {
-      align-self: center;
-    }
+    
         
     &--more-info {
         visibility: hidden;
@@ -167,11 +167,14 @@
   
     }
 
+  
+
   }
 
   
 
   .btn {
+  
         
     &--more-info {
         visibility: hidden;
@@ -232,7 +235,7 @@
     &--book-now {
         justify-self: start;
         align-self: center;
-        grid-row: 5;
+        grid-row: 4;
         grid-column: 1 / 2;
         line-height: 1;
         font-size: 3rem; 
@@ -241,13 +244,7 @@
       
   }
 
-  &__address {
-      font-size: 3.5rem;
-      grid-column: 1;
-      grid-row: 4;
-      justify-self: start;
-      align-self: end;
-  }
+ 
 }
 
   // SERVICES
