@@ -113,6 +113,14 @@
       &--2 {
         font-size: 4.5rem;
       }
+
+      .btn {
+        
+        &--more-info {
+            visibility: hidden;
+            opacity: 0;
+        } 
+      }
   
     }
 
@@ -151,13 +159,6 @@
   
     }
 
-    .btn {
-        
-      &--more-info {
-          visibility: hidden;
-          opacity: 0;
-      } 
-    }
   }
   // SERVICES
   .services {
