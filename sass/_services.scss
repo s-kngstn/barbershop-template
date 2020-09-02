@@ -19,7 +19,7 @@
 }
 
   &__heading {
-    font-size: 6.5rem;
+    font-size: 5rem;
     align-self: center;
     grid-area: header;
     
@@ -37,7 +37,7 @@
 
   &__para {
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-secondary;
     color: #555;
 
     grid-area: para;

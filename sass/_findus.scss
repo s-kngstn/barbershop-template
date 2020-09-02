@@ -9,7 +9,7 @@
   background-color: $color-off-white;
 
     &__heading {
-      font-size: 6.5rem;
+      font-size: 5rem;
       grid-area: heading;
       align-self: center;
       
@@ -27,7 +27,7 @@
 
     &__para {
       font-size: 2.5rem;
-      font-family: 'Open Sans', sans-serif;
+      font-family: $font-secondary;
       color: #555;
   
       grid-area: para;
@@ -43,7 +43,7 @@
     &__list {
       grid-area: list;
       font-size: 2.5rem;
-      font-family: 'Open Sans', sans-serif;
+      font-family: $font-secondary;
       align-self: start;
       justify-self: start;
       i {

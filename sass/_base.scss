@@ -5,9 +5,12 @@ $color-primary-dark: #0e0d1a;
 $color-off-white: #fcfaf5;
 // FONT VARIABLES
 $font-primary: 'Cinzel', serif;
-$font-secondary: 'Open Sans', sans-serif;
+$font-secondary: 'Lato', sans-serif;
 //font-family: 'Cinzel', serif;
 //font-family: 'Abril Fatface', cursive;
+//font-family: 'Thasadith', sans-serif;
+//'Open Sans', sans-serif;
+//font-family: 'Advent Pro', sans-serif;
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; // 1200px /16 = em
@@ -32,7 +35,7 @@ html {
 }
 
 body {
-  font-weight: 400;
+  font-weight: 300;
   font-family: $font-primary;
   line-height: 1.6;
   background-color: $color-off-white;

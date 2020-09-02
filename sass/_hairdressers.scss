@@ -6,7 +6,7 @@
   
 
   &__heading {
-    font-size: 6.5rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
 
     &::after {
@@ -22,7 +22,7 @@
 
   &__para {
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $font-secondary;
     padding: 5rem 0rem 7rem 0;
     color: #555;
   }

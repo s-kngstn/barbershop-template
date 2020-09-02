@@ -12,7 +12,7 @@ html {
   font-size: 50%; }
 
 body {
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Cinzel", serif;
   line-height: 1.6;
   background-color: #fcfaf5; }
@@ -197,7 +197,7 @@ body {
     -webkit-filter: grayscale(100%);
     box-shadow: 3px 9px 60px -22px rgba(0, 0, 0, 0.75); }
   .services__heading {
-    font-size: 6.5rem;
+    font-size: 5rem;
     align-self: center;
     grid-area: header; }
     .services__heading::after {
@@ -209,7 +209,7 @@ body {
       margin-top: 2rem; }
   .services__para {
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #555;
     grid-area: para;
     align-self: start;
@@ -225,7 +225,7 @@ body {
   color: #0e0d1a;
   padding: 15rem 5rem 15rem 5rem; }
   .hairdressers__heading {
-    font-size: 6.5rem;
+    font-size: 5rem;
     margin-bottom: 2rem; }
     .hairdressers__heading::after {
       display: block;
@@ -236,7 +236,7 @@ body {
       margin-top: 2rem; }
   .hairdressers__para {
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lato", sans-serif;
     padding: 5rem 0rem 7rem 0;
     color: #555; }
   .hairdressers__link {
@@ -452,7 +452,7 @@ body {
     width: 90%;
     margin: 0 auto;
     font-size: 2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lato", sans-serif;
     padding-top: 3rem;
     color: #555; }
   .popup__prices-box {
@@ -488,7 +488,7 @@ body {
   padding: 15rem 5rem 15rem 5rem;
   background-color: #fcfaf5; }
   .findus__heading {
-    font-size: 6.5rem;
+    font-size: 5rem;
     grid-area: heading;
     align-self: center; }
     .findus__heading::after {
@@ -500,7 +500,7 @@ body {
       margin-top: 2rem; }
   .findus__para {
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #555;
     grid-area: para;
     align-self: start;
@@ -510,7 +510,7 @@ body {
   .findus__list {
     grid-area: list;
     font-size: 2.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lato", sans-serif;
     align-self: start;
     justify-self: start; }
     .findus__list i {
@@ -543,7 +543,7 @@ body {
   justify-content: center;
   background-color: #0e0d1a;
   color: #fcfaf5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 2rem;
   padding: 4rem; }
   .footer__list {
