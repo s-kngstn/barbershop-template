@@ -13,7 +13,7 @@ html {
 
 body {
   font-weight: 400;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Cinzel", serif;
   line-height: 1.6;
   background-color: #fcfaf5; }
 
@@ -92,7 +92,7 @@ body {
     margin: 1rem; }
   .navi__link {
     text-decoration: none;
-    font-family: "Abril Fatface", cursive;
+    font-family: "Cinzel", serif;
     font-size: 2.5rem;
     color: #fcfaf5;
     letter-spacing: 1px;
@@ -109,7 +109,7 @@ body {
   text-decoration: none;
   border: 3px solid transparent;
   background: linear-gradient(to right, #596088, #596088);
-  font-family: "Abril Fatface", cursive;
+  font-family: "Cinzel", serif;
   text-transform: uppercase;
   color: #fcfaf5;
   padding: 1.5rem 4rem;
@@ -152,7 +152,7 @@ body {
   text-decoration: none;
   border: 3px solid transparent;
   background-color: #596088;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Cinzel", serif;
   text-transform: uppercase;
   color: #fcfaf5;
   padding: 1rem 3rem;
