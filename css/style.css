@@ -409,7 +409,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.267);
+  background-color: rgba(14, 13, 26, 0.98);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -761,7 +761,7 @@ body {
   z-index: 300;
   width: 250px;
   height: 100%;
-  background: rgba(14, 13, 26, 0.6);
+  background: rgba(14, 13, 26, 0.9);
   position: fixed;
   top: 0;
   right: -250px;
