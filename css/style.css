@@ -20,7 +20,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: repeat(1fr, 4);
+  grid-template-rows: repeat(max-content, 4);
   line-height: 1;
   height: 100vh;
   background-image: radial-gradient(rgba(89, 96, 136, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header-mobile.jpg");
@@ -35,8 +35,8 @@ body {
     grid-row: 1 / 1;
     justify-self: start;
     align-self: end;
-    font-size: 13.5rem;
-    letter-spacing: 4px; }
+    font-size: 13rem;
+    letter-spacing: 3px; }
     .header__main span {
       font-family: 'Lobster', cursive;
       font-size: 6rem; }
@@ -89,10 +89,11 @@ body {
     align-items: center; }
   .navi__item {
     list-style: none;
-    margin: 2rem; }
+    margin: 1rem; }
   .navi__link {
     text-decoration: none;
-    font-size: 3rem;
+    font-family: "Abril Fatface", cursive;
+    font-size: 2.5rem;
     color: #fcfaf5;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -108,10 +109,10 @@ body {
   text-decoration: none;
   border: 3px solid transparent;
   background: linear-gradient(to right, #596088, #596088);
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   text-transform: uppercase;
   color: #fcfaf5;
-  padding: 2rem 4rem;
+  padding: 1.5rem 4rem;
   font-size: 3rem;
   text-shadow: none;
   cursor: pointer;
@@ -151,11 +152,11 @@ body {
   text-decoration: none;
   border: 3px solid transparent;
   background-color: #596088;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   text-transform: uppercase;
   color: #fcfaf5;
-  padding: 2rem 4rem;
-  font-size: 3rem;
+  padding: 1rem 3rem;
+  font-size: 2.5rem;
   text-shadow: none;
   cursor: pointer;
   border-radius: 2px;
@@ -427,7 +428,8 @@ body {
     align-items: center;
     justify-content: center; }
   .popup__heading {
-    font-size: 8rem;
+    font-size: 6rem;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 1; }
     .popup__heading::after {
@@ -449,8 +451,7 @@ body {
     justify-content: space-around;
     margin: 5rem; }
   .popup .popup__prices-title {
-    font-size: 4rem;
-    text-transform: uppercase;
+    font-size: 3rem;
     line-height: 1; }
     .popup .popup__prices-title::after {
       display: block;
@@ -461,7 +462,7 @@ body {
       margin-top: 1rem; }
   .popup .popup__prices-name {
     padding-top: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #596088; }
   .popup .popup__prices-price {
     font-size: 2rem; }

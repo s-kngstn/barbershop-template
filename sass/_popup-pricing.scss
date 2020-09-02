@@ -79,7 +79,8 @@
   }
 
   &__heading {
-    font-size: 8rem;
+    font-size: 6rem;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 1;
   
@@ -109,8 +110,7 @@
   }
 
   .popup__prices-title {
-    font-size: 4rem;
-    text-transform: uppercase;
+    font-size: 3rem;
     line-height: 1;
     &::after {
       display: block;
@@ -124,7 +124,7 @@
 
   .popup__prices-name {
     padding-top: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: $color-primary;
   }
 

@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: repeat(1fr, 4);
+  grid-template-rows: repeat(max-content, 4);
   line-height: 1;
   height: 100vh;
   background-image: radial-gradient( rgba($color-primary, 0.678), rgba($color-primary-dark, 0.979)), url('../img/header-mobile.jpg');
@@ -18,8 +18,8 @@
     grid-row: 1 / 1;
     justify-self: start;
     align-self: end;
-    font-size: 13.5rem;
-    letter-spacing: 4px;
+    font-size: 13rem;
+    letter-spacing: 3px;
 
     span {
       font-family: 'Lobster', cursive;
@@ -72,6 +72,7 @@
     
     &--more-info {
       grid-column: 2 / 3;
+
     }
   }
 

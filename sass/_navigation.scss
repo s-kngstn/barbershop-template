@@ -25,12 +25,13 @@
 
   &__item {
     list-style: none;
-    margin: 2rem;
+    margin: 1rem;
   }
 
   &__link {
     text-decoration: none;
-    font-size: 3rem;
+    font-family: $font-primary;
+    font-size: 2.5rem;
     color: #fcfaf5;
     letter-spacing: 1px;
     text-transform: uppercase;

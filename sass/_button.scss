@@ -2,10 +2,10 @@
   text-decoration: none;
   border: 3px solid transparent;
   background: linear-gradient(to right, $color-primary, $color-primary);
-  font-family: 'Abril Fatface', cursive;
+  font-family: $font-primary;
   text-transform: uppercase;
   color: $color-off-white;
-  padding: 2rem 4rem;
+  padding: 1.5rem 4rem;
   font-size: 3rem;
   text-shadow: none;
   cursor: pointer;
@@ -50,11 +50,11 @@
   text-decoration: none;
   border: 3px solid transparent;
   background-color: $color-primary;
-  font-family: 'Abril Fatface', cursive;
+  font-family:  $font-primary;
   text-transform: uppercase;
   color: $color-off-white;
-  padding: 2rem 4rem;
-  font-size: 3rem;
+  padding: 1rem 3rem;
+  font-size: 2.5rem;
   text-shadow: none;
   cursor: pointer;
   border-radius: 2px;
