@@ -197,11 +197,11 @@
     &--book-now {
         justify-self: start;
         align-self: center;
-        grid-row: 4;
+        grid-row: 5;
         grid-column: 1 / 2;
         line-height: 1;
         font-size: 3rem; 
-        padding: 2rem 3rem; 
+        padding: 2.5rem 3.5rem; 
     }
       
     &--more-info {
@@ -213,7 +213,7 @@
   &__address {
       font-size: 3.5rem;
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 4;
       justify-self: start;
       align-self: end;
   }
@@ -284,7 +284,7 @@
 
 @media(max-width: 350px) {
   html {
-    font-size: 28%;
+    font-size: 30%;
   }
   // MAP
   .findus {

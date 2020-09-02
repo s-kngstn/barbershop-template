@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: repeat(max-content, 4);
+  grid-template-rows: repeat(max-content, 5);
   line-height: 1;
   height: 100vh;
   background-image: radial-gradient( rgba($color-primary, 0.678), rgba($color-primary-dark, 0.979)), url('../img/header-mobile.jpg');
@@ -11,7 +11,7 @@
   color: #fff;
   text-shadow: 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef,
   0px 0px 35px #fffcef;
-  padding: 5rem;
+  padding: 5rem 2rem;
 
   &__main {
     grid-column: span 4;
@@ -39,20 +39,20 @@
     &--1 {
       font-size: 6.5rem;
       grid-row: 2 / 2;
-      align-self: center;
+      align-self: end;
     }
 
     &--2 {
       font-size: 5rem;
       grid-row: 3 / 3;
-      align-self: start;
+      align-self: center;
     }
 
   }
 
   &__address {
     font-size: 2.5rem;
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 4;
     justify-self: end;
     align-self: end;
@@ -60,18 +60,22 @@
 
 
   .btn {
-    grid-row: 4;
-    justify-self: start;
-    align-self: end;
+  
   
     &--book-now {
+      justify-self: start;
+    align-self: center;
+      grid-row: 4;
       grid-column: 1 / 2;
       
       
     }
     
     &--more-info {
-      grid-column: 2 / 3;
+      justify-self: start;
+      align-self: start;
+      grid-row: 5;
+      grid-column: 1/ 2;
 
     }
   }

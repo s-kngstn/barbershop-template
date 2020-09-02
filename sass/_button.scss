@@ -43,7 +43,11 @@
 }
 
 .btn:hover::before {
-  transform: translateX(230px) rotate(20deg);
+  transform: translateX(250px) rotate(20deg);
+  -webkit-transform: translateX(250px) rotate(20deg);
+  -moz-transform: translateX(250px) rotate(20deg);
+  -ms-transform: translateX(250px) rotate(20deg);
+  -o-transform: translateX(250px) rotate(20deg);
 }
 
 .btn-basic {

@@ -20,7 +20,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: repeat(max-content, 4);
+  grid-template-rows: repeat(max-content, 5);
   line-height: 1;
   height: 100vh;
   background-image: radial-gradient(rgba(89, 96, 136, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header-mobile.jpg");
@@ -29,7 +29,7 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   text-shadow: 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 1px #fffcef, 0px 0px 35px #fffcef;
-  padding: 5rem; }
+  padding: 5rem 2rem; }
   .header__main {
     grid-column: span 4;
     grid-row: 1 / 1;
@@ -48,25 +48,27 @@ body {
     .header__info--1 {
       font-size: 6.5rem;
       grid-row: 2 / 2;
-      align-self: center; }
+      align-self: end; }
     .header__info--2 {
       font-size: 5rem;
       grid-row: 3 / 3;
-      align-self: start; }
+      align-self: center; }
   .header__address {
     font-size: 2.5rem;
-    grid-row: 4;
+    grid-row: 5;
     grid-column: 4;
     justify-self: end;
     align-self: end; }
-  .header .btn {
-    grid-row: 4;
+  .header .btn--book-now {
     justify-self: start;
-    align-self: end; }
-    .header .btn--book-now {
-      grid-column: 1 / 2; }
-    .header .btn--more-info {
-      grid-column: 2 / 3; }
+    align-self: center;
+    grid-row: 4;
+    grid-column: 1 / 2; }
+  .header .btn--more-info {
+    justify-self: start;
+    align-self: start;
+    grid-row: 5;
+    grid-column: 1/ 2; }
 
 .navi {
   z-index: 10;
@@ -146,7 +148,11 @@ body {
   -o-transform: translateX(-100px) rotate(20deg); }
 
 .btn:hover::before {
-  transform: translateX(230px) rotate(20deg); }
+  transform: translateX(250px) rotate(20deg);
+  -webkit-transform: translateX(250px) rotate(20deg);
+  -moz-transform: translateX(250px) rotate(20deg);
+  -ms-transform: translateX(250px) rotate(20deg);
+  -o-transform: translateX(250px) rotate(20deg); }
 
 .btn-basic {
   text-decoration: none;
@@ -653,18 +659,18 @@ body {
       .header .btn--book-now {
         justify-self: start;
         align-self: center;
-        grid-row: 4;
+        grid-row: 5;
         grid-column: 1 / 2;
         line-height: 1;
         font-size: 3rem;
-        padding: 2rem 3rem; }
+        padding: 2.5rem 3.5rem; }
       .header .btn--more-info {
         visibility: hidden;
         opacity: 0; }
     .header__address {
       font-size: 3.5rem;
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 4;
       justify-self: start;
       align-self: end; }
   .services {
@@ -697,7 +703,7 @@ body {
 
 @media (max-width: 350px) {
   html {
-    font-size: 28%; }
+    font-size: 30%; }
   .findus {
     padding: 5rem 10rem 5rem 10rem; }
     .findus__map {
