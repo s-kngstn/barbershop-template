@@ -40,3 +40,8 @@ body {
   line-height: 1.6;
   background-color: $color-off-white;
 }
+
+::selection {
+  background-color: $color-primary;
+  color: $color-off-white;
+}

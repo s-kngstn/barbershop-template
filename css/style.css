@@ -17,6 +17,10 @@ body {
   line-height: 1.6;
   background-color: #fcfaf5; }
 
+::selection {
+  background-color: #596088;
+  color: #fcfaf5; }
+
 .header {
   display: grid;
   grid-template-columns: repeat(1fr, 4);
