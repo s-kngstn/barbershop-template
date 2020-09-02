@@ -626,6 +626,12 @@ body {
       font-size: 5.5rem; }
     .header__info--2 {
       font-size: 4.5rem; }
+  .header__address {
+    grid-row: 4;
+    align-self: center;
+    margin: 0; }
+  .btn--book-now {
+    align-self: center; }
   .btn--more-info {
     visibility: hidden;
     opacity: 0; }
@@ -647,7 +653,7 @@ body {
   .services__photo {
     width: 70%; } }
 
-@media (max-width: 655px) {
+@media (max-width: 675px) {
   html {
     font-size: 40%; }
   .header {

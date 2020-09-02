@@ -115,9 +115,18 @@
       }
 
     }  
+
+    &__address {
+      grid-row: 4;
+      align-self: center;
+      margin: 0;
+    }
   }
 
   .btn {
+    &--book-now {
+      align-self: center;
+    }
         
     &--more-info {
         visibility: hidden;
@@ -157,7 +166,10 @@
       }
   
     }
+
   }
+
+  
 
   .btn {
         
@@ -166,6 +178,8 @@
         opacity: 0;
     } 
   }
+
+  
     
 
   
@@ -179,7 +193,7 @@
 }
 
 
-@media(max-width: 655px) {
+@media(max-width: 675px) {
   html {
     font-size: 40%;
   }
