@@ -246,7 +246,7 @@ body {
 .items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
+  grid-gap: 1rem; }
 
 .item {
   position: relative;
@@ -535,12 +535,14 @@ body {
   color: #fcfaf5;
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  padding: 5rem; }
+  padding: 4rem; }
   .footer__list {
     display: flex;
-    justify-content: space-around; }
+    justify-content: center;
+    margin: 2rem; }
   .footer__item {
-    list-style: none; }
+    list-style: none;
+    margin: 0 4.5rem; }
   .footer__link {
     text-decoration: none;
     color: #fffcef;

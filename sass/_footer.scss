@@ -6,16 +6,18 @@
   color: $color-off-white;
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  padding: 5rem;
+  padding: 4rem;
 
   &__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin: 2rem;
     
   } 
 
   &__item {
       list-style: none;
+      margin: 0 4.5rem;
   }
 
   &__link {
