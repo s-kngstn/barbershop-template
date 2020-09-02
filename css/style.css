@@ -14,8 +14,8 @@ html {
 body {
   font-weight: 400;
   font-family: "Abril Fatface", cursive;
-  background-color: white;
-  line-height: 1.6; }
+  line-height: 1.6;
+  background-color: #fcfaf5; }
 
 .header {
   display: grid;
@@ -23,7 +23,7 @@ body {
   grid-template-rows: repeat(1fr, 4);
   line-height: 1;
   height: 100vh;
-  background-image: radial-gradient(rgba(58, 57, 88, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header-mobile.jpg");
+  background-image: radial-gradient(rgba(70, 67, 105, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header-mobile.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body {
   .header__main {
     grid-column: span 4;
     grid-row: 1 / 1;
-    justify-self: center;
+    justify-self: start;
     align-self: end;
     font-size: 13.5rem;
     letter-spacing: 4px; }
@@ -77,7 +77,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
-  @media (max-width: 750px) {
+  @media (max-width: 850px) {
     .navi {
       display: none;
       opacity: 0; } }
@@ -110,7 +110,7 @@ body {
   background: linear-gradient(to right, #464369, #464369);
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
-  color: #fff;
+  color: #fcfaf5;
   padding: 2rem 4rem;
   font-size: 3rem;
   text-shadow: none;
@@ -153,7 +153,7 @@ body {
   background-color: #464369;
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
-  color: #fff;
+  color: #fcfaf5;
   padding: 2rem 4rem;
   font-size: 3rem;
   text-shadow: none;
@@ -170,7 +170,7 @@ body {
   -o-transition: all .4s ease; }
   .btn-basic:hover {
     color: #464369;
-    background-color: #fffcef;
+    background-color: #fcfaf5;
     border: 3px #464369 solid; }
 
 .services {
@@ -370,7 +370,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.267);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -384,17 +384,22 @@ body {
   .popup:target {
     opacity: 1;
     visibility: visible; }
+  .popup__close-wrapper {
+    position: relative;
+    margin-bottom: 6rem; }
   .popup__close {
-    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8rem;
+    display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 3rem 4rem; }
+    padding: 3rem; }
     .popup__close:link, .popup__close:visited {
       color: #0e0d1a;
-      font-size: 6rem;
       line-height: 0;
       text-decoration: none;
-      display: inline-block;
       transition: .3s all;
       -webkit-transition: .3s all;
       -moz-transition: .3s all;
@@ -402,9 +407,6 @@ body {
       -o-transition: .3s all; }
     .popup__close:hover {
       color: #464369; }
-  .popup__close-wrapper {
-    display: flex;
-    justify-content: end; }
   .popup__content {
     width: 75%;
     background-color: #fcfaf5;
@@ -464,11 +466,14 @@ body {
   .popup .popup__prices-price {
     font-size: 2rem; }
 
+.btn-basic__popup {
+  font-size: 3rem; }
+
 .findus {
   display: grid;
   grid-template-areas: "map heading" "map para" "map list";
   grid-gap: 5rem;
-  padding: 5rem 5rem;
+  padding: 15rem 5rem 15rem 5rem;
   background-color: #fcfaf5; }
   .findus__heading {
     font-size: 6.5rem;
@@ -509,15 +514,15 @@ body {
     grid-area: map;
     align-self: center;
     justify-self: center;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    border: #464369 3px solid;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px; }
     .findus__map iframe {
-      border: #464369 3px solid;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
       border-radius: 3px; }
 
 .footer {
@@ -525,7 +530,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #464369;
-  color: #fffcef;
+  color: #fcfaf5;
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   padding: 5rem; }
@@ -577,7 +582,7 @@ body {
 
 @media (min-width: 900px) {
   .header {
-    background-image: radial-gradient(rgba(58, 57, 88, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header.jpg");
+    background-image: radial-gradient(rgba(70, 67, 105, 0.678), rgba(14, 13, 26, 0.979)), url("../img/header.jpg");
     background-size: cover;
     background-attachment: fixed; } }
 
@@ -598,7 +603,7 @@ body {
     width: 90%;
     margin-bottom: none; } }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .header__main {
     font-size: 12rem; }
   .header__info {
@@ -622,14 +627,16 @@ body {
   .services__photo {
     width: 70%; } }
 
-@media (max-width: 650px) {
+@media (max-width: 655px) {
   html {
     font-size: 35%; }
   .header {
     padding: 2rem 3rem; }
     .header__main {
-      font-size: 6.5rem;
-      letter-spacing: 2px; }
+      font-size: 7rem;
+      letter-spacing: 1px; }
+      .header__main span {
+        font-size: 4rem; }
     .header__info {
       grid-column: 1 / span 3; }
       .header__info--1 {
@@ -653,7 +660,7 @@ body {
       font-size: 3.5rem;
       grid-column: 1;
       grid-row: 3;
-      justify-self: end;
+      justify-self: start;
       align-self: end; }
   .services {
     padding: 5rem 5rem; }
@@ -661,9 +668,14 @@ body {
       width: 90%; }
   .hairdressers {
     padding: 5rem 5rem 0rem 5rem; }
+  .popup__content {
+    width: 95%; }
+  .popup__heading {
+    font-size: 6rem; }
+  .popup .popup__prices-title {
+    font-size: 3rem; }
   .findus {
-    padding-left: 10rem;
-    padding-right: 10rem; }
+    padding: 5rem 10rem 5rem 10rem; }
     .findus__map {
       align-self: start;
       justify-self: start; }
@@ -671,11 +683,30 @@ body {
     width: 350px;
     height: 250px; } }
 
+@media (max-width: 350px) {
+  html {
+    font-size: 25%; }
+  .findus {
+    padding: 5rem 10rem 5rem 10rem; }
+    .findus__map {
+      align-self: start;
+      justify-self: start; }
+  iframe {
+    width: 250px;
+    height: 150px; }
+  .popup__heading {
+    font-size: 5rem; }
+  .popup .popup__prices-title {
+    font-size: 2.5rem; }
+  .btn-basic__popup {
+    font-size: 2rem;
+    padding: 2rem 3rem; } }
+
 .nav-container {
   width: 100%;
   display: block;
   opacity: 1; }
-  @media (min-width: 750px) {
+  @media (min-width: 850px) {
     .nav-container {
       display: none;
       opacity: 0; } }
@@ -684,7 +715,7 @@ body {
   z-index: 300;
   width: 300px;
   height: 100%;
-  background: #0e0d1acc;
+  background: rgba(14, 13, 26, 0.9);
   position: fixed;
   top: 0;
   right: -300px;

@@ -1,9 +1,11 @@
 // COLOR VARIABLES
-$color-primary: rgb(255, 255, 255);
+$color-primary: #464369;
+$color-primary-dark: #0e0d1a;
 
-
+$color-off-white: #fcfaf5;
 // FONT VARIABLES
 $font-primary: 'Abril Fatface', cursive;
+//$font-secondary: 
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; // 1200px /16 = em
@@ -30,6 +32,6 @@ html {
 body {
   font-weight: 400;
   font-family: $font-primary;
-  background-color: $color-primary;
   line-height: 1.6;
+  background-color: $color-off-white;
 }

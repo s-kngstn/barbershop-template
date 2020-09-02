@@ -5,7 +5,7 @@
     "picture para"
     "picture btn";
   grid-gap: 10rem;
-  background-color: #fcfaf5;
+  background-color: $color-off-white;
   padding: 20rem 5rem;
 
   &__photo {
@@ -21,14 +21,13 @@
   &__heading {
     font-size: 6.5rem;
     align-self: center;
-
     grid-area: header;
     
 
     &::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: $color-primary;
       content: " ";
       width: 10rem;
       margin-top: 2rem;

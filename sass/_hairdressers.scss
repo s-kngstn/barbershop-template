@@ -1,7 +1,7 @@
 .hairdressers {
   display: grid;
-  background-color: #fcfaf5;
-  color: #0e0d1a;
+  background-color: $color-off-white;
+  color: $color-primary-dark;
   padding: 15rem 5rem 15rem 5rem;
   
 
@@ -12,7 +12,7 @@
     &::after {
       display: block;
       height: 3px;
-      background-color: #464369;
+      background-color: $color-primary;
       content: " ";
       width: 10rem;
       margin-top: 2rem;
@@ -38,8 +38,8 @@
     -ms-transition: all .2s;
     -o-transition: all .2s;
     &:hover {
-      color: #464369;
-      border-bottom: 2px solid #464369;
+      color: $color-primary;
+      border-bottom: 2px solid $color-primary;
     }
   }
   
@@ -56,7 +56,7 @@
 
 .item {
   position: relative;
-  background: #0e0d1a;
+  background: $color-primary-dark;
   overflow: hidden;
   width: 100%;
   height: auto;

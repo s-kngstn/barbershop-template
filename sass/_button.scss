@@ -1,10 +1,10 @@
 .btn {
   text-decoration: none;
   border: 3px solid transparent;
-  background: linear-gradient(to right, rgb(70, 67, 105), rgb(70, 67, 105));
+  background: linear-gradient(to right, $color-primary, $color-primary);
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
-  color: #fff;
+  color: $color-off-white;
   padding: 2rem 4rem;
   font-size: 3rem;
   text-shadow: none;
@@ -18,7 +18,7 @@
   -o-border-radius: 2px;
   &--more-info {
     background: linear-gradient(to right, rgb(35, 34, 54), rgb(25, 25, 41));
-    border: 3px solid rgb(70, 67, 105);
+    border: 3px solid $color-primary;
   }
 
 }
@@ -49,10 +49,10 @@
 .btn-basic {
   text-decoration: none;
   border: 3px solid transparent;
-  background-color: #464369;
+  background-color: $color-primary;
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
-  color: #fff;
+  color: $color-off-white;
   padding: 2rem 4rem;
   font-size: 3rem;
   text-shadow: none;
@@ -69,9 +69,9 @@
   -o-transition: all .4s ease;
   
   &:hover {
-    color: #464369;
-    background-color: #fffcef;
-    border: 3px #464369 solid;
+    color: $color-primary;
+    background-color: $color-off-white;
+    border: 3px $color-primary solid;
   }
 
 }
