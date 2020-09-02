@@ -117,6 +117,14 @@
     }  
   }
 
+  .btn {
+        
+    &--more-info {
+        visibility: hidden;
+        opacity: 0;
+    } 
+  }
+
   
   // SERVICES
   .services {
