@@ -572,7 +572,7 @@ body {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 40%; }
+    font-size: 50%; }
   .items {
     grid-template-columns: repeat(2, 1fr); }
   .item {
@@ -602,7 +602,7 @@ body {
 
 @media (max-width: 900px) {
   html {
-    font-size: 35%; }
+    font-size: 45%; }
   .header__main {
     font-size: 14rem; }
   .header__info {
@@ -634,7 +634,7 @@ body {
 
 @media (max-width: 750px) {
   .header__main {
-    font-size: 9.5rem; }
+    font-size: 11rem; }
   .header__info {
     grid-column: 1 / span 3; }
     .header__info--1 {
@@ -649,11 +649,11 @@ body {
 
 @media (max-width: 655px) {
   html {
-    font-size: 35%; }
+    font-size: 40%; }
   .header {
     padding: 7rem 3rem; }
     .header__main {
-      font-size: 7rem;
+      font-size: 7.5rem;
       letter-spacing: 1px; }
       .header__main span {
         font-size: 4rem; }
@@ -709,7 +709,9 @@ body {
 
 @media (max-width: 350px) {
   html {
-    font-size: 30%; }
+    font-size: 35%; }
+  .header__main {
+    font-size: 7rem; }
   .findus {
     padding: 5rem 10rem 5rem 10rem; }
     .findus__map {

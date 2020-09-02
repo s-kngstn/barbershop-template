@@ -1,7 +1,7 @@
 @media(max-width: 1200px) {
     
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
 
   //HAIRDRESSERS
@@ -60,7 +60,7 @@
 @media(max-width: 900px) {
 
   html {
-    font-size: 35%;
+    font-size: 45%;
   }
 
   // HEADER
@@ -141,7 +141,7 @@
   .header {
 
     &__main {
-      font-size: 9.5rem;
+      font-size: 11rem;
     }
 
     &__info {
@@ -181,14 +181,14 @@
 
 @media(max-width: 655px) {
   html {
-    font-size: 35%;
+    font-size: 40%;
   }
   // HEADER 
   .header {
     padding: 7rem 3rem;
 
     &__main {
-      font-size: 7rem;
+      font-size: 7.5rem;
       letter-spacing: 1px;
 
       span {
@@ -301,8 +301,13 @@
 
 @media(max-width: 350px) {
   html {
-    font-size: 30%;
+    font-size: 35%;
   }
+  .header {
+  &__main {
+    font-size: 7rem;
+  }
+}
   // MAP
   .findus {
     padding: 5rem 10rem 5rem 10rem;
