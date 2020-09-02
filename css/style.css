@@ -594,7 +594,7 @@ body {
     .services__photo {
       width: 50%; } }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .header {
     background-image: radial-gradient(rgba(0, 0, 0, 0.027), rgba(14, 13, 26, 0.95), rgba(14, 13, 26, 0.99)), url("../img/header.jpg");
     background-size: cover;
