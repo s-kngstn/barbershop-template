@@ -208,7 +208,7 @@ body {
       width: 10rem;
       margin-top: 2rem; }
   .services__para {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: "Lato", sans-serif;
     color: #555;
     grid-area: para;
@@ -235,7 +235,7 @@ body {
       width: 10rem;
       margin-top: 2rem; }
   .hairdressers__para {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: "Lato", sans-serif;
     padding: 5rem 0rem 7rem 0;
     color: #555; }
@@ -451,7 +451,7 @@ body {
   .popup__para {
     width: 90%;
     margin: 0 auto;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Lato", sans-serif;
     padding-top: 3rem;
     color: #555; }
@@ -499,7 +499,7 @@ body {
       width: 10rem;
       margin-top: 2rem; }
   .findus__para {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: "Lato", sans-serif;
     color: #555;
     grid-area: para;
@@ -509,7 +509,7 @@ body {
       color: #596088; }
   .findus__list {
     grid-area: list;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: "Lato", sans-serif;
     align-self: start;
     justify-self: start; }
@@ -572,7 +572,7 @@ body {
 
 @media (max-width: 1200px) {
   html {
-    font-size: 50%; }
+    font-size: 45%; }
   .items {
     grid-template-columns: repeat(2, 1fr); }
   .item {
@@ -602,9 +602,9 @@ body {
 
 @media (max-width: 900px) {
   html {
-    font-size: 45%; }
+    font-size: 40%; }
   .header__main {
-    font-size: 14rem; }
+    font-size: 13rem; }
   .header__info {
     grid-column: 1 / span 3; }
     .header__info--1 {
@@ -714,8 +714,6 @@ body {
     padding: 1.5rem 2.5rem; } }
 
 @media (max-width: 350px) {
-  html {
-    font-size: 35%; }
   .header__main {
     font-size: 7rem; }
   .findus {
