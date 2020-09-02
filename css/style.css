@@ -625,9 +625,6 @@ body {
       font-size: 5.5rem; }
     .header__info--2 {
       font-size: 4.5rem; }
-  .btn--more-info {
-    visibility: hidden;
-    opacity: 0; }
   .services__photo {
     width: 70%; } }
 
@@ -640,6 +637,9 @@ body {
       font-size: 4.5rem; }
     .header__info--2 {
       font-size: 3.5rem; }
+  .btn--more-info {
+    visibility: hidden;
+    opacity: 0; }
   .services__photo {
     width: 70%; } }
 
