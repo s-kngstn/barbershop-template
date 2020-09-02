@@ -14,6 +14,7 @@
   padding: 5rem 2rem;
 
   &__main {
+    padding-top: 5rem;
     grid-column: span 4;
     grid-row: 1 / 1;
     justify-self: start;
@@ -46,6 +47,7 @@
       font-size: 5rem;
       grid-row: 3 / 3;
       align-self: center;
+      margin-bottom: 3rem;
     }
 
   }
