@@ -115,6 +115,8 @@
       }
   
     }
+
+    
     
   }
   // SERVICES
@@ -147,6 +149,14 @@
         
       }
   
+    }
+
+    .btn {
+        
+      &--more-info {
+          visibility: hidden;
+          opacity: 0;
+      } 
     }
   }
   // SERVICES
@@ -204,10 +214,6 @@
         padding: 2.5rem 3.5rem; 
     }
       
-    &--more-info {
-        visibility: hidden;
-        opacity: 0;
-    } 
   }
 
   &__address {

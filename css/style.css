@@ -637,6 +637,9 @@ body {
       font-size: 4.5rem; }
     .header__info--2 {
       font-size: 3.5rem; }
+  .header .btn--more-info {
+    visibility: hidden;
+    opacity: 0; }
   .services__photo {
     width: 70%; } }
 
@@ -666,9 +669,6 @@ body {
         line-height: 1;
         font-size: 3rem;
         padding: 2.5rem 3.5rem; }
-      .header .btn--more-info {
-        visibility: hidden;
-        opacity: 0; }
     .header__address {
       font-size: 3.5rem;
       grid-column: 1;
